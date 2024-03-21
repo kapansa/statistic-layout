@@ -1,0 +1,102 @@
+/* colors */
+
+/* primary color: #794ea1 */
+/* background color: #1c1937 */
+/* body bg color: #000 */
+/* overlay color: #9e56ce */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      font-family: "Inter", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #0a0c1b;
+}
+
+.card {
+      background-color: #1c1937;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.heading {
+      max-width: 600px;
+}
+
+.left,
+.right {
+      flex-basis: 50%;
+}
+
+.left {
+      padding: 50px;
+}
+
+.left h1 {
+      color: #fff;
+      font-size: 45px;
+      padding-bottom: 20px;
+}
+
+.left p {
+      color: lightgrey;
+      font-size: 20px;
+}
+
+.left span {
+      color: #8151ae;
+}
+
+.item h2 {
+      font-size: 30px;
+}
+
+.item p {
+      text-transform: uppercase;
+      padding-top: 10px;
+}
+
+.right {
+      overflow: hidden;
+      position: relative;
+}
+
+.overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: #6d2d9878;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+}
+
+.right img {
+      width: 100%;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+}
+
+.statistics {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 60px;
+      margin-top: 60px;
+}
+
+.statistics h2 {
+      color: #fff;
+}
